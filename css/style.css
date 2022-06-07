@@ -426,7 +426,15 @@ ul.btn li:last-child {
      line-height: 80px;
      padding-bottom: 45px;
      font-weight: bold;
-     margin-left: 60px;
+}
+
+
+.text-bg h2 {
+     color: #fff;
+     font-size: 75px;
+     line-height: 80px;
+     padding-bottom: 45px;
+     font-weight: bold;
 }
 
 .text-bg span {
@@ -514,7 +522,6 @@ ul.btn li:last-child {
      transition: ease-in all 0.5s;
 }
 
-
 /** end banner section **/
 
 .titlepage {
@@ -574,6 +581,24 @@ ul.btn li:last-child {
      font-size: 16px;
 }
 
+.cc_sec{
+     width: 100%;
+     height: auto;
+     padding: 50px;
+     text-align: justify;
+     font-size: 16px;
+}
+
+.cc_para{
+     font-size: 28px;
+     line-height: normal;
+}
+
+.box-para{
+     text-align: justify;
+     font-size: 22px;
+}
+
 .three_box {
      background-color: #fff;
      padding-top: 50px;
@@ -597,9 +622,10 @@ ul.btn li:last-child {
 }
 
 .box_text p {
-     font-size: 17px;
+     font-size: 18px;
      color: #050505;
      line-height: 30px;
+     text-align: justify;
 }
 
 .box_text i {
