@@ -320,6 +320,7 @@ ul.btn li:last-child {
 
 .navigation.navbar {
      float: right;
+     text-align: center;
      padding-top: 31px !important;
      padding: 0;
 }
@@ -372,6 +373,8 @@ ul.btn li:last-child {
 }
 
 .header {
+     display: flex;
+     align-items: center;
      width: 100%;
      padding: 30px 30px;
      background: transparent;
@@ -1208,11 +1211,25 @@ ul.social_icon li a:hover {
      text-align: center !important;
 }
 .company_logo{
-     width: 50px;
+     width: 70px;
 }
 }
 
 .client-img{
      margin-top: 100px;
      margin-bottom: 100px;
+}
+
+.client-box{
+     text-align:center;
+}
+
+.client-text{
+     font-size: 20px;
+     font-weight: bold;
+     margin-top: 20px;
+}
+
+.client-text2{
+     font-size: 16px;
 }
