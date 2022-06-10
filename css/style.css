@@ -120,6 +120,7 @@ h6 a {
      height : auto;
 }
 
+
 button:focus {
      outline: none;
 }
@@ -392,6 +393,7 @@ ul.btn li:last-child {
 .banner_main {
      background: url(../images/banner.jpg);
      background-repeat: no-repeat;
+     width: 100%;
      min-height: 900px;
      background-size: 100% 100%;
      display: flex;
@@ -462,9 +464,6 @@ ul.btn li:last-child {
      padding-top: 70px;
 }
 
-.text_img {
-     margin-right: -130px;
-}
 
 .text_img figure {
      margin: 0;
@@ -615,7 +614,7 @@ ul.btn li:last-child {
      padding: 50px 20px 20px 20px;
      border: #4842a2 solid 1px;
      border-radius: 15px;
-     width: 360px;
+     width: 100%;
      height: 500px;
 }
 
@@ -913,9 +912,9 @@ ul.btn li:last-child {
 .main_form .send_btn {
      font-size: 22px;
      transition: ease-in all 0.5s;
-     background-color: #48ca95;
+     background-color: white;
      text-transform: uppercase;
-     color: #fff;
+     color: black;
      padding: 15px 0px;
      max-width: 226px;
      width: 100%;
@@ -1203,10 +1202,13 @@ ul.social_icon li a:hover {
      font-size: 75px !important;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
 .service-title {
      font-size: 36px !important;
      text-align: center !important;
+}
+.company_logo{
+     width: 50px;
 }
 }
 
